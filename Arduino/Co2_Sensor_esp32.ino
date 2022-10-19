@@ -8,7 +8,6 @@ pin4 to arduino GPIO13
 參考資料:https://sites.google.com/mail3.hwsh.tc.edu.tw/earth/arduinoadvanced/co2-sensor-ds-co2-20
 */
 HardwareSerial myHardwareSerial(1);
-//#include <SoftwareSerial.h>
 
 static unsigned int co2 = 0;
 static unsigned int ucRxBuffer[10];
