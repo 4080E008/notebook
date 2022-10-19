@@ -5,6 +5,7 @@ pin2 to GND
 pin3 to arduino GPIO12
 pin4 to arduino GPIO13
 剩下的pin5~pin7不接
+參考資料:https://sites.google.com/mail3.hwsh.tc.edu.tw/earth/arduinoadvanced/co2-sensor-ds-co2-20
 */
 HardwareSerial myHardwareSerial(1);
 //#include <SoftwareSerial.h>
